@@ -15,6 +15,7 @@ urlpatterns = [
 
     url(r'^api-auth/', include('rest_framework.urls', namespace='rest_framework')),
     #return token providing username and password POST
+    #branch
     url(r'^api-token-auth/', views.obtain_auth_token),
 ]
 
